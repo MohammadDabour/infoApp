@@ -1,7 +1,7 @@
 # infoApp
 This project contains the information of the employees.
 
-# clone the repo
+# Clone the repo
 ```
 git clone git@github.com:MohammadDabour/infoApp.git
 ```
@@ -14,3 +14,10 @@ git clone git@github.com:MohammadDabour/infoApp.git
 **Get**
 - ```/``` return hello message.
 - ```/users``` return all the employees details.
+- ```/users/{_id}``` return the employee details with specified id.
+
+**Post**
+- ```/users``` you can write on Postman body the details of employee which you need to add it.
+
+**Delete**
+- ```/users/{_id}``` delete the employee with specified id.

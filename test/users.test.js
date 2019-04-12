@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const mongo = require('../source/db/mongo');
+const mongo = require('../src/db/mongo');
 let connection;
 let db;
 const _id = '5c9205837329f7a656ebd3ea';

@@ -1,8 +1,8 @@
-jest.mock('../../source/db/mongo.js');
+jest.mock('../../src/db/mongo.js');
 
 const { ObjectID } = require('mongodb');
-const db = require('../../source/db/mongo');
-const userController = require('../../source/controllers/usersController');
+const db = require('../../src/db/mongo');
+const userController = require('../../src/controllers/usersController');
 
 describe('User Controller Test: save user', () => {
   beforeEach(() => {

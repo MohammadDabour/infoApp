@@ -3,7 +3,7 @@ This project contains the information of the employees.
 
 # Clone the repo
 ```
-git clone git@github.com:MohammadDabour/infoApp.git
+git clone https://github.com/MohammadDabour/infoApp.git
 ```
 # Building and running with docker
 - ```cd``` into ```infoApp``` folder.
